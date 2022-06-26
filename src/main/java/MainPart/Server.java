@@ -33,7 +33,7 @@ public class Server {
 
 
     public Server() throws IOException {
-        port = 4446;
+        port = 3333;
         LogManager.getLogManager().readConfiguration();
         LOGGER = Logger.getLogger(Server.class.getName());
         try {

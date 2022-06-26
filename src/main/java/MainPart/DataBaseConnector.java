@@ -77,7 +77,8 @@ public class DataBaseConnector implements Serializable {
                 connection.close();
             }
         } catch (Exception e) {
-            e.printStackTrace();
+            //e.printStackTrace();
+            System.out.println("Данный логин уже занят");
         }
     }
 

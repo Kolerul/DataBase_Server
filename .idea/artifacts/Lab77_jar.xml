@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Lab77:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Lab77_jar</output-path>
+    <root id="archive" name="Lab77.jar">
+      <element id="module-output" name="Lab77" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/postgresql/postgresql/42.2.18/postgresql-42.2.18.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

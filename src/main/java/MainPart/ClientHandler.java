@@ -27,7 +27,7 @@ public class ClientHandler implements Runnable {
     public void run() {
         presenter.createCollection();
         //LOGGER.info("База данных подключена");
-        //System.out.println(2);
+        System.out.println(2);
         try {
 
             //LOGGER.info("Создан канал выхода");
@@ -62,7 +62,7 @@ public class ClientHandler implements Runnable {
                 outputStream.flush();
                 //LOGGER.info("Отправлен ответ клиенту");
             } while (true);
-        } catch ( SocketException e) {
+        } catch ( SocketException | EOFException e ) {
             System.out.println("Клиент отключился");
         } catch (IOException e) {
             e.printStackTrace();

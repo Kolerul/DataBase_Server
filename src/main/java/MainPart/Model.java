@@ -54,9 +54,10 @@ public class Model {
             "14. filter_contains_name name - выводит все элементы, значение поля name которых содержит данную подстроку\n" +
             "15. print_field_ascending_capital - выводит значение поля capital у элементов стека в порядке возрастания";
 
-    public String dataBaseUser = "s290085";
+    public String dataBaseUser = "postgres";
 
-    public String dataBasePassword = "dyy253";
+    public String dataBasePassword = "JOJO_Reference" +
+            "";
 
-    public String dataBaseUrl = "jdbc:postgresql://pg:5432/studs";
+    public String dataBaseUrl = "jdbc:postgresql://localhost:4445/postgres";
 }
