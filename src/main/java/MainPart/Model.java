@@ -56,8 +56,7 @@ public class Model {
 
     public String dataBaseUser = "postgres";
 
-    public String dataBasePassword = "JOJO_Reference" +
-            "";
+    public String dataBasePassword = "JustPassword";
 
     public String dataBaseUrl = "jdbc:postgresql://localhost:4445/postgres";
 }
